@@ -100,7 +100,7 @@ func main() {
 
 	if *Domain == "" || *Wordlist == "" {
 		fmt.Println("-d e -w são obrigatórios.")
-		fmt.Println("Modo de uso: ./guesser -d domain -w wordlist")
+		fmt.Println("Modo de uso: ./guesser -d domain -w wordlist -c threads")
 	}
 
 	var results []result
